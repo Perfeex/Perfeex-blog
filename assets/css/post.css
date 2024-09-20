@@ -56,15 +56,20 @@ body {
 #post .img-container img:hover {
     transform: scale(1.05);
 }
-#post h1 {
+#post h2 {
     font-size: 1.8rem;
     margin: 15px 0;
     color: #00eaff;
 }
-#post h2 {
+#post h3 {
     font-size: 1.5rem;
     color: #eeeec8;
     margin: 15px 0 15px 20px;
+}
+#post h4{
+  font-size: 1.3rem;
+  color: #ff8888;
+  margin: 15px 0 15px 20px;
 }
 #post p {
     font-size: 1rem;
@@ -72,11 +77,11 @@ body {
     margin: 15px 0;
 }
 #post a {
-    font-size: 1rem;
+    /* font-size: 1rem; */
     text-decoration: none;
     color: yellow;
 }
-#post ul{
+#post ul, #post ol{
   margin-left: 10%;
 }
 
@@ -93,13 +98,16 @@ body {
     #header h1 {
         font-size: 2.9rem;
     }
-    #post h1 {
+    #post h2 {
         font-size: 2.3rem;
     }
-    #post h2 {
+    #post h3 {
         font-size: 2.1rem;
     }
-    #post p, #post a, #post ul li {
+    #post h4{
+      font-size: 1.9rem;
+    }
+    #post p, /* #post a, */ #post ul li, #post ol li {
         font-size: 1.6rem;
     }
 }
@@ -115,13 +123,16 @@ body {
     #header h1 {
         font-size: 2.5rem;
     }
-    #post h1 {
+    #post h2 {
         font-size: 1.9rem;
     }
-    #post h2 {
+    #post h3 {
         font-size: 1.7rem;
     }
-    #post p, #post a, #post ul li {
+    #post h4 {
+      font-size: 1.5rem;
+    }
+    #post p, /* #post a, */ #post ul li, #post ol li {
         font-size: 1.3rem;
     }
 }
@@ -144,14 +155,17 @@ body {
     #post {
         padding: 8%;
     }
-    #post h1 {
+    #post h2 {
         font-size: 1.6rem;
     }
-    #post h2 {
+    #post h3 {
         font-size: 1.45rem;
         margin-left: 15px;
     }
-    #post p, #post a, #post ul li {
+    #post h4 {
+      font-size: 1.25rem;
+    }
+    #post p, /* #post a, */ #post ul li, #post ol li {
         font-size: 1rem;
     }
 }
@@ -169,14 +183,17 @@ body {
     #post {
         padding: 5%;
     }
-    #post h1 {
+    #post h2 {
         font-size: 1.2rem;
     }
-    #post h2 {
+    #post h3 {
         font-size: 1rem;
         margin-left: 10px;
     }
-    #post p, #post a, #post ul li {
+    #post h4 {
+      font-size: 0.9rem;
+    }
+    #post p, /* #post a, */ #post ul li #post ol li{
         font-size: 0.8rem;
     }
-}
+}}
